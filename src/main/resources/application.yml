@@ -29,13 +29,3 @@ security:
     name: admin
     password: root
 
-# 停止服务
-endpoints:
-  shutdown:
-    enabled: true
-    path: stop
-management:
-  security:
-    enabled: false
-  port: 10000
-  address: 127.0.0.1
