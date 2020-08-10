@@ -21,11 +21,12 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
 # 用户认证
-security:
-  basic:
-  # 开启http basic认证
-    enabled: true
-  user:
-    name: admin
-    password: root
+spring:
+  security:
+    basic:
+    # 开启http basic认证
+      enabled: true
+    user:
+      name: admin
+      password: root
 
